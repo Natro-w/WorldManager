@@ -1,0 +1,7 @@
+# Enable debug logging for crop/farmland protection
+debug: false
+
+# Worlds where crop and farmland protection is active
+protected-worlds:
+  - world
+  - spawn
