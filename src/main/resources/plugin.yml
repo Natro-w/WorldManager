@@ -6,3 +6,91 @@ description: WorldManager is the most powerful world management system.
 main: ru.Natro.worldmanager.WorldManager
 website: https://cloudburstmc.org/resources/worldmanager-advanced-multiworld-plugin.560/
 prefix: WorldManager
+permissions:
+  worldmanager.admin:
+    default: true
+    description: Grants access to all WorldManager features
+  worldmanager.addon:
+    default: true
+    description: Allows managing addons
+  worldmanager.killentitys:
+    default: true
+    description: Allows clearing entities
+  worldmanager.clearlag:
+    default: true
+    description: Allows clearing lag
+  worldmanager.copy:
+    default: true
+    description: Allows copying worlds
+  worldmanager.delete:
+    default: true
+    description: Allows deleting worlds
+  worldmanager.gamerule:
+    default: true
+    description: Allows changing gamerules
+  worldmanager.generate:
+    default: true
+    description: Allows generating worlds
+  worldmanager.generateui:
+    default: true
+    description: Allows using generate UI
+  worldmanager.help:
+    default: true
+    description: Allows viewing help
+  worldmanager.info:
+    default: true
+    description: Allows viewing world info
+  worldmanager.list:
+    default: true
+    description: Allows listing worlds
+  worldmanager.load:
+    default: true
+    description: Allows loading worlds
+  worldmanager.regenerate:
+    default: true
+    description: Allows regenerating worlds
+  worldmanager.reload:
+    default: true
+    description: Allows reloading config
+  worldmanager.rename:
+    default: true
+    description: Allows renaming worlds
+  worldmanager.save:
+    default: true
+    description: Allows saving worlds
+  worldmanager.default:
+    default: true
+    description: Allows setting default world
+  worldmanager.setdefault:
+    default: true
+    description: Allows setting default world
+  worldmanager.setseed:
+    default: true
+    description: Allows setting seed
+  worldmanager.setspawn:
+    default: true
+    description: Allows setting spawn
+  worldmanager.settings:
+    default: true
+    description: Allows managing world settings
+  worldmanager.spawn:
+    default: true
+    description: Allows teleporting to spawn
+  worldmanager.status:
+    default: true
+    description: Allows viewing world status
+  worldmanager.sync:
+    default: true
+    description: Allows syncing worlds
+  worldmanager.teleportui:
+    default: true
+    description: Allows using teleport UI
+  worldmanager.teleport:
+    default: true
+    description: Allows teleporting between worlds
+  worldmanager.unload:
+    default: true
+    description: Allows unloading worlds
+  worldmanager.bypass.playerlimit:
+    default: true
+    description: Allows bypassing player limits
